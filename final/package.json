@@ -1,18 +1,19 @@
 {
-  "name": "paradigmas",
+  "name": "final",
   "version": "1.0.0",
   "description": "",
-  "main": "tp1-ejercicio2.js",
+  "main": "index.js",
   "scripts": {
-    "start": "ts-node tp2/tp1-ejercicio3.ts",
-    "build": "tsc"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^20.12.7",
     "prompt-sync": "^4.2.0"
   },
   "devDependencies": {
-    "@types/node": "^20.8.6"
+    "@types/prompt-sync": "^4.2.3"
   }
 }

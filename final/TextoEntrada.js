@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.textoVencimiento = exports.textoEstado = exports.textoDificultad = exports.textoDescripcion = exports.textoTitulo = exports.textoIdTarea = exports.noHayTareas = exports.textoTareaNoEncontrada = exports.textoOpcionInvalida = exports.textoOpcion = void 0;
+exports.textoOpcion = "Ingrese una de las opciones: ";
+exports.textoOpcionInvalida = "----------------------Ingrese una opcion valida----------------------";
+exports.textoTareaNoEncontrada = "Tarea no encontrada";
+exports.noHayTareas = "No hay tareas, ingrese alguna para comenzar...";
+exports.textoIdTarea = "Ingrese el id de la tarea: ";
+exports.textoTitulo = "Ingrese el titulo de la tarea: ";
+exports.textoDescripcion = "Ingrese la descripción de la tarea (Puede quedar vacia): ";
+exports.textoDificultad = "Ingrese la dificultad de la tarea (Si deja vacio se ingresara con dificultad facil): ";
+exports.textoEstado = "Ingrese el estado de la tarea (Si ingresa vacio se ingresara con estado pendiente): ";
+exports.textoVencimiento = "Ingrese la fecha de vencimiento de la tarea en formato DD/MM/AAAA. Por ej: 02/02/2023 (Si ingresa vacio se dejara sin fecha de vencimiento): ";
